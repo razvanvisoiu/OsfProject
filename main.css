@@ -1,0 +1,61 @@
+/* * {
+ box-sizing: border-box;
+ background-color: black;
+} */
+
+.nav-item{
+
+    color: white;
+}
+
+.active-pink-2 input[type=text]:focus:not([readonly]) {
+  border-bottom: 1px solid #f48fb1;
+  box-shadow: 0 1px 0 0 #f48fb1;
+}
+
+/* .form-inline{
+
+  margin-left: 15em;
+} */
+
+.site-image {
+  /* The image used */
+  background-image: url("https://via.placeholder.com/300");
+
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* display:block; */
+  position:absolute;
+  
+}
+
+.site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  .site-content {
+    flex: 1;
+  }
+
+ img{
+
+  margin: 0 auto;
+ }
+
+ .inner-item{
+   text-align: center;
+ }
+
+ .display-4{
+
+  color:green;
+
+ }
+
+ 
+
