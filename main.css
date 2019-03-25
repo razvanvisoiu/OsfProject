@@ -18,6 +18,10 @@
   margin-left: 15em;
 } */
 
+.btn-secondary{
+  display:flex;
+}
+
 .site-image {
   /* The image used */
   background-image: url("https://via.placeholder.com/300");
@@ -32,7 +36,7 @@
   
 }
 
-.site {
+/* .site {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
@@ -40,7 +44,7 @@
   
   .site-content {
     flex: 1;
-  }
+  } */
 
  img{
 
@@ -55,6 +59,10 @@
 
   color:green;
 
+ }
+
+ .footer{
+   background-color:burlywood;
  }
 
 
