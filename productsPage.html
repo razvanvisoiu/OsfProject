@@ -8,13 +8,17 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" type="text/css" media="screen" href="main.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-        <script src="main.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <!-- <script src="main.js"></script> -->
+
+
     </head>
-<body class="site">
+<body class="site ">
         <!-- <header> -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top mb-4">
                 <!-- <a class="navbar-brand" href="#">Navbar</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -28,26 +32,20 @@
                     <a class="nav-item nav-link " href="#">Blog</a>
                     <a class="nav-item nav-link " href="#">Contact</a>
                     <form class="form-inline active-pink-2 active-pink-4 order-1 mr-0">
-                        <i class="fas fa-search" aria-hidden="true"></i>
+                        <i class="fas fa-search" aria-hidden="true"></i> 
                         <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search" aria-label="Search">
                       </form>
                   </div>
                 </div>
             </nav>
 
-        <!-- </header>   -->
- 
-     
 
-        <div class="navbar-nav bt-4 dropdwn">
-          <div class="row">
-            <div class="col md-2 ml-auto">
-          <p> Shop By </p>
-        
-        </div>
-        <div class="col md-3 ">
+       
+        <div class=" groupedButtons">
+            <div class="row mt-4 mb-4">
+        <div class="col md-3  lg-4">    
           <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <button class="btn btn-secondary dropdown-toggle first" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Brands
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -58,20 +56,20 @@
           </div>
         </div>
        
-          <div class="col md-3 ">
+          <div class="col md-3 lg-4">
           <div class="dropdown">
             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
              Categories
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
               <a class="dropdown-item" href="#">Casual</a>
-              <a class="dropdown-item" href="#">fancy</a>
+              <a class="dropdown-item" href="#">Fancy</a>
               <a class="dropdown-item" href="#">Special occasion</a>
             </div>
           </div>
         </div>
 
-          <div class="col md-3 ">
+          <div class="col md-3 lg-4 ">
          <div class="dropdown">
             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Price
@@ -82,45 +80,71 @@
               <a class="dropdown-item" href="#">&gt 250</a>
             </div>
           </div>
+          </div>
         </div>
       </div>
-    </div>
+      
 
+       <!-- <div class="container-fluid px-0 row">   
+          <div class="bckimg" id="backgroundProducts">
+          </div>
+      </div>   -->
 
-        
-           <div class="container pb-4">
+      <div class="w-100">
+              <img src="Poze_site/shoes_collection.jpg" alt="Shoe img" class="site-image"> 
+            </div>
+          </div>
+        </div>
+  
+           <!-- <div class="container pb-4 mt-3 mb-3">
               <div>
                 <div class="row">
                   <div class="col md-12">
-                <!-- <img class="site-image", alt="Background image"> -->
+                <img class="d-block w-100" src="https://via.placeholder.com/100" alt="Background Shoe image">
                 <p class= "site-image pt-5 pb-5 img-fluid"> </p>
               </div>
            </div>
-         </div></div>
+         </div></div> -->
+
+         <!-- <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 px-0 ">
+                <img class="img-fluid"  src="https://via.placeholder.com/300">
+              </div>
+            </div>  
+          </div> -->
+
+          <!-- <div class="container-fluid px-0">   
+              <div class="bckimg" id="backgroundProducts">
+              </div>
+          </div> -->
            
-          <div class="row">
-            <div class="col-md-6 col-lg-4">
-            <div class="card mb-3">
-              <img class="card-img-top" src="https://via.placeholder.com/250" alt="shoe">
+          <div class="row ">
+            <div class="col-md-6 col-lg-4 ">
+            <div class="card mb-3  h-100">
+              <img class="card-img-top" src="Poze_site/pantofi1.jpg" alt="shoe">
               <div class="card-body">
+                <span id="price"> &dollar;145</span>
                 <h5 class="card-title">Shoe</h5>
               </div>
               </div>
             </div>
           
-            <div class="col-md-6 col-lg-4">
-            <div class="card mb-3">
-              <img class="card-img-top" src="https://via.placeholder.com/250" alt="shoe">
+            <div class="col-md-6 col-lg-4 ">
+            <div class="card mb-3 h-100">
+              <img class="card-img-top" src="Poze_site/pantofi2.jpg" alt="shoe">
               <div class="card-body">
-                <h5 class="card-title">Shoe</h5>
+                  <span id="price">&dollar; 145</span>
+                <h5 class="card-title ">Shoe</h5>
                </div>
               </div>
             </div>
           
-            <div class="col-md-6 col-lg-4">
-            <div class="card mb-3">
-              <img class="card-img-top" src="https://via.placeholder.com/250" alt="shoe">
+            <div class="col-md-6 col-lg-4 ">
+            <div class="card mb-3 h-100">
+              <img class="card-img-top" src="Poze_site/pantofi3.jpg" alt="shoe">
               <div class="card-body">
+                  <span id="price"> &dollar;145</span>
                 <h5 class="card-title">Shoe </h5>
             </div>
                </div>
@@ -130,28 +154,31 @@
 
               <div class="row">
           
-            <div class="col-md-6 col-lg-4">
-            <div class="card mb-3">
-              <img class="card-img-top" src="https://via.placeholder.com/250" alt="shoe">
+            <div class="col-md-6 col-lg-4 ">
+            <div class="card mb-3 h-100">
+              <img class="card-img-top" src="Poze_site/pantofi4.jpg" alt="shoe">
               <div class="card-body">
+                  <span id="price"> &dollar;145</span>
                 <h5 class="card-title">Shoe </h5>
             </div>
                </div>
               </div>
           
-            <div class="col-md-6 col-lg-4">
-            <div class="card mb-3">
-              <img class="card-img-top" src="https://via.placeholder.com/250" alt="shoe">
+            <div class="col-md-6 col-lg-4 ">
+            <div class="card mb-3 h-100">
+              <img class="card-img-top" src="Poze_site/pantofi5.jpg" alt="shoe">
               <div class="card-body">
-                <h5 class="card-title">Shoe </h5>
+                  <span id="price"> &dollar;145</span>
+                <h5 class="card-title ">Shoe </h5>
             </div>
                </div>
               </div>
           
-            <div class="col-md-6 col-lg-4">
-            <div class="card mb-3">
-              <img class="card-img-top" src="https://via.placeholder.com/250" alt="shoe">
+            <div class="col-md-6 col-lg-4 ">
+            <div class="card mb-3 h-100">
+              <img class="card-img-top" src="Poze_site/pantofi6.jpg" alt="shoe">
               <div class="card-body">
+                  <span id="price"> &dollar;160</span>
                 <h5 class="card-title">Shoe </h5>
              </div>
               </div>
@@ -159,41 +186,65 @@
 
         </div>
 
-        <div class="row">
+        <div class="row last">
 
-          <div class="col-md-6 col-lg-4">
-            <div class="card mb-3">
-              <img class="card-img-top" src="https://via.placeholder.com/250" alt="shoe">
+          <div class="col-md-6 col-lg-4 ">
+            <div class="card mb-3 h-100">
+              <img class="card-img-top" src="Poze_site/pantofi1.jpg" alt="shoe">
               <div class="card-body">
+                  <span id="price"> &dollar;145</span>
                 <h5 class="card-title">Shoe </h5>
              </div>
               </div>
           </div>
 
-          <div class="col-md-6 col-lg-4">
-            <div class="card mb-3">
-              <img class="card-img-top" src="https://via.placeholder.com/250" alt="shoe">
+          <div class="col-md-6 col-lg-4 ">
+            <div class="card mb-3 h-100">
+              <img class="card-img-top" src="Poze_site/pantofi2.jpg" alt="shoe">
               <div class="card-body">
+                  <span id="price"> &dollar;180</span>
                 <h5 class="card-title">Shoe </h5>
              </div>
               </div>
           </div>
 
-          <div class="col-md-6 col-lg-4">
-            <div class="card mb-3">
-              <img class="card-img-top" src="https://via.placeholder.com/250" alt="shoe">
+          <div class="col-md-6 col-lg-4 ">
+            <div class="card mb-3 h-100">
+              <img class="card-img-top" src="Poze_site/pantofi3.jpg" alt="shoe">
               <div class="card-body">
+                  <span id="price"> &dollar;180</span>
                 <h5 class="card-title">Shoe </h5>
              </div>
               </div>
           </div>
         </div>
         
-        
+</div>
+        </div>
 
+        <div class=" third-content mt-4 mb-4">
+            <div class="row">
+                <div class="col-sm-2 ">
+               <div class="input-group">
+                   <input type="email" class="form-control" placeholder="Enter your email">
+                   <span class="input-group-btn">
+                   <button class="btn btn-warning" type="submit">Subscribe</button>
+                   </span>
+                    </div>
+                   </div>
+                   <div class="socmediabuttons col-sm-8 text-right">
+                   <a class="btn-floating btn-lg btn-fb" type="button" role="button"><i class="fab fa-facebook-f"></i></a>
+                   <a class="btn-floating btn-lg btn-tw" type="button" role="button"><i class="fab fa-twitter"></i></a>
+                   <a class="btn-floating btn-lg btn-gplus" type="button" role="button"><i class="fab fa-google-plus-g"></i></a>
+                   <a class="btn-floating btn-lg btn-li" type="button" role="button"><i class="fab fa-linkedin-in"></i></a>
+                 </div>
+            </div>
+            </div>
+
+      
         </main>
 
-        <footer class="footer">
+        <footer class="footer ">
                 <div class="container">
                   <div class="row">
                     <div class="col-sm-6">

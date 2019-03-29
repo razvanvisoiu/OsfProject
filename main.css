@@ -1,15 +1,93 @@
-/* * {
+ * {
  box-sizing: border-box;
- background-color: black;
-} */
+}
+
+.carousel-item img {
+    max-height: 40vh; 
+    object-fit: cover;
+  }
 
 .nav-item{
 
     color: white;
 }
 
+
+.btn-theme{
+  border-radius: 0 20px 20px 0;
+  background: #243c4f;
+  color: #fff;
+  }
+
+  hr{
+    color:gray;
+    border-top:1px grey;
+    margin:1em;
+  }
+   
+
+.groupedButtons{
+    display: flex;
+    justify-content: center;
+    margin-top:4em;
+    align-items: center;
+    align-content: center;
+    background-color:black;
+}
+
+
+.groupedButtons::before{
+  content:"Shop by";
+  margin-right: 3em;
+  color:white;
+}
+
+
+.shipping{
+  display:flex;
+  flex-direction: column;
+  background-color: lightgrey;
+  width: 40px;
+  border-radius:1em;;
+  padding: 1em;
+  margin-left: .5em;
+}
+
+.testimonials{
+  display:flex;
+  flex-direction: column;
+  background-color: lightgrey;
+  width: 40px;
+  border-radius:1em;
+  padding: 1em;
+  margin-left: 3em;
+}
+
+.blognews{
+  display:flex;
+  flex-direction: column;
+  background-color: lightgrey;
+  width: 40px;
+  border-radius:1em;
+  padding: 1em;
+  margin-left:auto;
+  margin-right:6rem;
+}
+
 p{
   margin:auto;
+}
+
+.shop{
+  order:-1;
+}
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.secondary-content{
+  background-color:cornsilk;
 }
 
 .active-pink-2 input[type=text]:focus:not([readonly]) {
@@ -18,29 +96,25 @@ p{
 }
 
 /* .form-inline{
-
   margin-left: 15em;
 } */
 
 .btn-secondary{
-  display:flex;
+  background-color: green;
+  color: white;
+  width:auto;
 }
+
+
+
 
 .site-image {
-  /* The image used */
-  background-image: url("https://via.placeholder.com/300");
-
-  height: 100%;
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* display:block; */
-  position:absolute;
-  
+  max-height: 40vh;
+ object-fit:cover;
+ width:100%;
 }
 
-/* .site {
+ .site {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
@@ -48,7 +122,7 @@ p{
   
   .site-content {
     flex: 1;
-  } */
+  } 
 
 
  .img{
@@ -61,13 +135,48 @@ p{
  }
 
  .display-4{
-
   color:green;
-
  }
 
+ #price {      
+  background: #00f2b5;
+  text-align: right;
+  border-radius: 10px 10px 10px 10px;
+  color: white;
+  padding: 2em 3em;
+  font-size: 2em;
+  position: relative;
+  left:5px;
+  bottom:5px;
+  float:left;      
+}
+
+ /* #backgroundProducts{
+   background:no-repeat center center fixed;
+   margin:-10px;
+ } */
+ 
+ #backgroundProducts{
+background-image:url("Poze_site/sandale.jpg");
+background-size: cover;
+background-position: center; 
+background-repeat: no-repeat;
+height: 15em;
+margin-bottom:0px;
+min-width: 100%;}
+
+.card-title{
+  text-align: center;
+}
+
+
+
  .footer{
-   background-color:burlywood;
+   background-color:gray;
+ }
+
+ .offers{
+   background-color:black;
  }
 
  .dropdwn{
@@ -75,11 +184,26 @@ p{
    margin-top:10px;
  }
 
+ .last{
+   margin-bottom:4em;
+ }
+
+ /* .third-content{
+   background-color:
+ } */
+
 
 
  /* .dropdown{
    display: inline-block;
  } */
 
- 
+ .clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
 
